@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Domain Parked</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+		/* Credit: Meyerweb */
+		* {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+
+		html {
+			height: 100%;
+			width: 100%;
+		}
+
+		body {
+			font-family: 'Open Sans', sans-serif;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+		}
+
+		.full-screen-bg {
+			background: linear-gradient(130deg, #ff5f6d, #ffc371);
+			background-size: 200%;
+			color: white;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			/* Cool looking scroll animation */
+			animation: BackgroundScroll 15s ease infinite;
+			-moz-animation: BackgroundScroll 15s ease infinite;
+			-webkit-animation: BackgroundScroll 15s ease infinite;
+		}
+
+		.text-panel {
+			text-align: center;
+			margin: 0 auto;
+			margin-top: 30vh;
+		}
+
+		h1 {
+			font-size: 42pt;
+			font-family: 'Dancing Script', cursive;
+		}
+
+		p {
+			font-size: 24pt;
+		}
+
+		a {
+			color: #ffffff;
+		}
+
+		@keyframes BackgroundScroll {
+			0% {
+				background-position: 0% 50%;
+			}
+
+			50% {
+				background-position: 100% 50%;
+			}
+
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+
+		@-moz-keyframes BackgroundScroll {
+			0% {
+				background-position: 0% 50%;
+			}
+
+			50% {
+				background-position: 100% 50%;
+			}
+
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+
+		@-webkit-keyframes BackgroundScroll {
+			0% {
+				background-position: 0% 50%;
+			}
+
+			50% {
+				background-position: 100% 50%;
+			}
+
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="full-screen-bg">
+		<div class="text-panel">
+			<h1>We're Closed!</h1>
+			<p>This domain is under construction.</p>
+		</div>
+	</div>
+</body>
+</html>
